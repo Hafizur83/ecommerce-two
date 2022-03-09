@@ -1,0 +1,150 @@
+
+@media (min-width:1200px){
+	
+}
+@media (min-width:991px) and (max-width: 1199px){
+	.product_list_item_img {
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 1199px){
+	.hero_wrapper .header_help{
+		display: none;
+	}
+    .hero_catagories_all{
+        gap: 10px
+    }
+}
+@media (max-width: 991px){
+	.hero_wrapper {
+		grid-template-columns: 30% auto 5%;
+	}
+    .product_grid_item {
+        -ms-flex: 0 30%;
+        flex: 0 30%;
+        max-width: 30%;
+    }
+}
+
+
+@media (max-width: 767px){
+    .header_top {
+        justify-content: space-between;
+    }
+	.main_header {
+		display: flex;
+        justify-content: space-between;
+	}
+    .header_notifications {
+        margin-left: 0;
+    }
+    .signup_wrapper{
+        display: block;
+    }
+    .signup_wrapper .signup-bg{
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    .signup_form{
+        width: 100%;
+        padding: 10px 5px;
+        border-radius: 10px;
+    }
+    section.signup {
+        padding-top: 70px;
+    }
+    .hero_wrapper .header_menu {
+        padding: 5px 15px 5px;
+    }
+    .header_menu li {
+        margin-right: 17px;
+    }
+    .hero_wrapper {
+        grid-template-columns: 37% auto 5%;
+    }
+    .mall_item {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 575px){
+    section.hero{
+		display: none;
+	}
+    .header__top__left {
+        display: none;
+    }
+    .header_top {
+        justify-content: center;
+    }
+    .header_notifications {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 999999;
+        margin-left: 0;
+        padding: 11px 10px;
+        max-height: 51px;
+        height: 100%;
+    }
+    .copyright {
+        padding-bottom: 40px;
+    }
+    #topbtn{
+        bottom: 60px;
+    }
+    
+}
+@media (max-width: 479px){
+    .cart_footer{
+        bottom: 51px;
+    }
+    .on-sale .content_header{
+        display: block;
+    }
+    .on_sale_text{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:411px){
+    .on_sale_text {
+        display: block;
+        text-align: center;
+    }
+    .on_sale_text_ending{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .cart_item .quantity input{
+        text-align: center;
+    }
+}
+
+@media (max-width: 526px){
+    
+}
+@media (min-width: 479px) {
+    
+    
+    .d-xs-none {
+        display: none !important;
+    }
+    .d-xs-block {
+        display: block!important;
+    }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
